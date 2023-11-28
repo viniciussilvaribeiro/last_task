@@ -29,7 +29,7 @@ class EnviromentSerializer(ModelSerializer):
 
         model = Enviroments
 
-        fields = '__all__'
+        fields = ['name', 'description', 'color']
 
 
 class DeviceSerializer(ModelSerializer):
@@ -39,4 +39,4 @@ class DeviceSerializer(ModelSerializer):
 
         model = Devices
 
-        fields = '__all__'
+        fields = ['name', 'description', 'color']
